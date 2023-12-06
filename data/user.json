@@ -1,0 +1,62 @@
+[
+    {
+        "username": "user1",
+        "email": "user1@example.com",
+        "passwordHash": "hashed_password_1",
+        "roles": [
+            "user"
+        ],
+        "personalInfo": {
+            "fullName": "John Doe",
+            "address": "1234 Main St, Anytown, USA",
+            "phoneNumber": "123-456-7890"
+        },
+        "accountStatus": {
+            "isActive": true,
+            "isVerified": false,
+            "isSuspended": false
+        },
+        "timestamps": {
+            "createdAt": "2023-12-05T00:00:00.000Z"
+        },
+        "authTokens": {
+            "sessionToken": "session_token_1",
+            "refreshToken": "refresh_token_1"
+        },
+        "userPreferences": {
+            "language": "en",
+            "interfaceSettings": {}
+        },
+        "activityLog": []
+    },
+    {
+        "username": "user2",
+        "email": "user2@example.com",
+        "passwordHash": "hashed_password_2",
+        "roles": [
+            "admin"
+        ],
+        "personalInfo": {
+            "fullName": "Jane Smith",
+            "address": "5678 Side St, Anothertown, USA",
+            "phoneNumber": "987-654-3210"
+        },
+        "accountStatus": {
+            "isActive": true,
+            "isVerified": true,
+            "isSuspended": false
+        },
+        "timestamps": {
+            "createdAt": "2023-12-05T00:00:00.000Z"
+        },
+        "authTokens": {
+            "sessionToken": "session_token_2",
+            "refreshToken": "refresh_token_2"
+        },
+        "userPreferences": {
+            "language": "es",
+            "interfaceSettings": {}
+        },
+        "activityLog": []
+    }
+]
